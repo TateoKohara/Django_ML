@@ -1,3 +1,4 @@
 {
-    "python.autoComplete.extraPaths": ["./config/"]
+    // "python.pythonPath": "/usr/local/bin/python3"
+    "python.pythonPath": "/Users/kouharatateo/.local/share/virtualenvs/Django_ML-cQLVA0fq/bin/python"
 }

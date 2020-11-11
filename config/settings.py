@@ -25,7 +25,7 @@ SECRET_KEY = '_2pa=x@0b41oruyxc2uv1qgif#4b=dc!(hx9_lq$!#_u58o9#b'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ["*"]
 
 
 # Application definition
@@ -37,6 +37,7 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    "ML_ai"
 ]
 
 MIDDLEWARE = [
